@@ -1,0 +1,85 @@
+.container{
+    margin: 20px;
+    font-size: large;
+    width: 800px;
+    margin: 0 auto;
+    color: #053E35;
+    padding-top: 20px;
+    /* border: 2px solid white; */
+}
+
+    h1{
+        font-size: large;
+        color: #19524A;
+        text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+        font-weight: bold;
+    }
+
+    h1, form{
+        display: inline-block;
+    }
+
+        .emphasis{
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        #reset{
+            background-color: red;
+            color: white;
+            box-shadow: 2px 2px black;
+            margin-left: 650px;
+        }
+
+        .risk{
+            border: 2px solid #053E35;
+            margin: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        .emphasis, .button{
+            display: block;
+            text-align: center;
+        }
+
+        .bet{
+            background-color: green;
+            color: white;
+            box-shadow: 2px 2px black;
+            padding: 5px 20px 5px 20px;
+        }
+
+        .range{
+            font-size: medium;
+            text-align: center;
+        }
+
+        .host_says{
+            width: 770px;
+            height: 200px;
+            border: 2px solid #053E35;
+            overflow-y: scroll;
+            font-size: medium;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        .lose{
+            color: red;
+        }
+
+        .win{
+            color: green;
+        }
+
+        strong{
+            color: blue;
+        }
+
+        #chances, .game_host{
+            color: #19524A;
+            text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+            font-weight: bold;
+        }
